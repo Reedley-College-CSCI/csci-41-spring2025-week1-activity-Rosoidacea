@@ -50,6 +50,10 @@ int main()
     for (count = 0; count < SIZE; count++)
         cout << intTable[count] << " ";
     cout << endl;
+    cout << "These values are in intTable2:\n";
+    for (count = 0; count < SIZE; count++)
+        cout << intTable2[count] << " ";
+    cout << endl;
     cout << "These values are in doubleTable:\n";
     for (count = 0; count < SIZE; count++)
         cout << doubleTable[count] << " ";
@@ -68,6 +72,10 @@ int main()
     cout << "These values are in intTable:\n";
     for (count = 0; count < SIZE; count++)
         cout << intTable[count] << " ";
+    cout << endl;
+    cout << "These values are in intTable2:\n";
+    for (count = 0; count < SIZE; count++)
+        cout << intTable2[count] << " ";
     cout << endl;
     cout << "These values are in doubleTable:\n";
     for (count = 0; count < SIZE; count++)
